@@ -2,6 +2,7 @@
   height: 100;
   border: 20px solid rgb(126, 234, 43);
   display: flex;
+  flex-wrap: wrap;
 }
 .child1 {
   width: 200px;
