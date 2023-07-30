@@ -8,22 +8,28 @@
   width: 200px;
   height: 200px;
   background: rgb(91, 148, 240);
+  flex: 1 1 300px;
 }
 .child2 {
   width: 200px;
   height: 200px;
   background: rgb(235, 233, 87);
-  order: 2;
+  flex: 1 1 300px;
 }
+/* flex grow is basically takes all space available */
+/*  flex shrink is opposite of that */
+/* flex basis is basically for width */
+/* you can use only flex n it can cover all three togethere. */
 .child3 {
   width: 200px;
   height: 200px;
   background: rgb(35, 170, 232);
-  order: 3;
 }
 .child4 {
   width: 200px;
   height: 200px;
   background: rgb(231, 85, 153);
 }
+/* bigger the number last the position in order */
+/* smaller the number first the position */
 /* check */
