@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .parent {
-  height: 1000;
-  border: solid rgb(126, 234, 43);
+  height: 100vh;
+  border: 20px solid rgb(126, 234, 43);
   display: flex;
   flex-wrap: wrap;
 }
@@ -23,12 +28,13 @@
   width: 200px;
   height: 200px;
   background: rgb(35, 170, 232);
-  align-self: flex-end;
 }
+/* align self is currently left is not working.  */
 .child4 {
   width: 200px;
   height: 200px;
   background: rgb(231, 85, 153);
+  align-self: flex-end;
 }
 /* bigger the number last the position in order */
 /* smaller the number first the position */
